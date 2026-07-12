@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { Disclaimer } from "@/components/Disclaimer";
 import { formatNumber } from "@/lib/tools";
 
 type PercentMode = "of" | "discount" | "change";
@@ -30,7 +31,8 @@ export function PercentCalculator() {
   }, [a, b, mode]);
 
   return (
-    <div className="grid gap-6 lg:grid-cols-2">
+    <div className="space-y-6">
+      <div className="grid gap-6 lg:grid-cols-2">
       <div className="space-y-4">
         <div className="flex flex-wrap gap-2">
           {(
@@ -90,6 +92,9 @@ export function PercentCalculator() {
           </p>
         </div>
       )}
+      </div>
+
+      <Disclaimer compact />
     </div>
   );
 }

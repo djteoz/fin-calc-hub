@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { AdSlot } from "@/components/AdSlot";
+import { Disclaimer } from "@/components/Disclaimer";
 import { ToolPageHeader } from "@/components/ToolPageHeader";
 import { calculatorMap } from "@/components/calculators";
 import { getTool, tools } from "@/lib/tools";
@@ -57,6 +58,8 @@ export default async function ToolPage({ params }: ToolPageProps) {
             Результат обновляется мгновенно при изменении параметров.
           </p>
         </article>
+
+        <Disclaimer />
 
         <AdSlot />
       </div>

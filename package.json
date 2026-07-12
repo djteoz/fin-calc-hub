@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "fetch-cbr": "node scripts/fetch-cbr.mjs",
+    "prebuild": "npm run fetch-cbr",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

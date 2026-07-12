@@ -4,6 +4,7 @@ import { CompoundInterestCalculator } from "./CompoundInterestCalculator";
 import { VatCalculator } from "./VatCalculator";
 import { MarginCalculator } from "./MarginCalculator";
 import { PercentCalculator } from "./PercentCalculator";
+import { CurrencyConverter } from "./CurrencyConverter";
 import type { ToolSlug } from "@/lib/tools";
 
 export const calculatorMap: Record<ToolSlug, ComponentType> = {
@@ -12,4 +13,5 @@ export const calculatorMap: Record<ToolSlug, ComponentType> = {
   nds: VatCalculator,
   marzha: MarginCalculator,
   procenty: PercentCalculator,
+  valyuta: CurrencyConverter,
 };

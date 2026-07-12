@@ -1,0 +1,387 @@
+{
+  "fetchedAt": "2026-07-12T18:46:10.481Z",
+  "ratesDate": "2026-07-11",
+  "keyRate": 14.25,
+  "keyRateDate": "2026-06-22",
+  "currencies": [
+    {
+      "code": "GBP",
+      "name": "���� ����������",
+      "nominal": 1,
+      "value": 102.6617,
+      "ratePerUnit": 102.6617
+    },
+    {
+      "code": "BYN",
+      "name": "����������� �����",
+      "nominal": 1,
+      "value": 26.7162,
+      "ratePerUnit": 26.7162
+    },
+    {
+      "code": "AED",
+      "name": "������ ���",
+      "nominal": 1,
+      "value": 20.8753,
+      "ratePerUnit": 20.8753
+    },
+    {
+      "code": "USD",
+      "name": "������ ���",
+      "nominal": 1,
+      "value": 76.6647,
+      "ratePerUnit": 76.6647
+    },
+    {
+      "code": "EUR",
+      "name": "����",
+      "nominal": 1,
+      "value": 87.6661,
+      "ratePerUnit": 87.6661
+    },
+    {
+      "code": "KZT",
+      "name": "�����",
+      "nominal": 100,
+      "value": 16.402,
+      "ratePerUnit": 0.16402
+    },
+    {
+      "code": "CNY",
+      "name": "����",
+      "nominal": 1,
+      "value": 11.3037,
+      "ratePerUnit": 11.3037
+    },
+    {
+      "code": "TRY",
+      "name": "�������� ���",
+      "nominal": 10,
+      "value": 16.3717,
+      "ratePerUnit": 1.63717
+    },
+    {
+      "code": "JPY",
+      "name": "���",
+      "nominal": 100,
+      "value": 47.2976,
+      "ratePerUnit": 0.472976
+    },
+    {
+      "code": "AUD",
+      "name": "������������� ������",
+      "nominal": 1,
+      "value": 53.2743,
+      "ratePerUnit": 53.2743
+    },
+    {
+      "code": "AZN",
+      "name": "��������������� �����",
+      "nominal": 1,
+      "value": 45.0969,
+      "ratePerUnit": 45.0969
+    },
+    {
+      "code": "DZD",
+      "name": "��������� �������",
+      "nominal": 100,
+      "value": 57.6365,
+      "ratePerUnit": 0.576365
+    },
+    {
+      "code": "AMD",
+      "name": "��������� ������",
+      "nominal": 100,
+      "value": 20.868,
+      "ratePerUnit": 0.20868
+    },
+    {
+      "code": "BHD",
+      "name": "����������� �����",
+      "nominal": 1,
+      "value": 203.8514,
+      "ratePerUnit": 203.8514
+    },
+    {
+      "code": "BOB",
+      "name": "���������",
+      "nominal": 10,
+      "value": 74.8679,
+      "ratePerUnit": 7.48679
+    },
+    {
+      "code": "BRL",
+      "name": "����������� ����",
+      "nominal": 1,
+      "value": 14.9368,
+      "ratePerUnit": 14.9368
+    },
+    {
+      "code": "HUF",
+      "name": "��������",
+      "nominal": 100,
+      "value": 24.5681,
+      "ratePerUnit": 0.245681
+    },
+    {
+      "code": "VND",
+      "name": "������",
+      "nominal": 10000,
+      "value": 30.4056,
+      "ratePerUnit": 0.00304056
+    },
+    {
+      "code": "HKD",
+      "name": "����������� ��������",
+      "nominal": 10,
+      "value": 97.7741,
+      "ratePerUnit": 9.77741
+    },
+    {
+      "code": "GEL",
+      "name": "����",
+      "nominal": 1,
+      "value": 29.0661,
+      "ratePerUnit": 29.0661
+    },
+    {
+      "code": "DKK",
+      "name": "������� �����",
+      "nominal": 1,
+      "value": 11.7275,
+      "ratePerUnit": 11.7275
+    },
+    {
+      "code": "EGP",
+      "name": "���������� ������",
+      "nominal": 10,
+      "value": 15.4254,
+      "ratePerUnit": 1.54254
+    },
+    {
+      "code": "INR",
+      "name": "��������� �����",
+      "nominal": 100,
+      "value": 80.4348,
+      "ratePerUnit": 0.804348
+    },
+    {
+      "code": "IDR",
+      "name": "�����",
+      "nominal": 10000,
+      "value": 42.3796,
+      "ratePerUnit": 0.00423796
+    },
+    {
+      "code": "IRR",
+      "name": "�������� ������",
+      "nominal": 1000000,
+      "value": 51.6922,
+      "ratePerUnit": 0.0000516922
+    },
+    {
+      "code": "CAD",
+      "name": "��������� ������",
+      "nominal": 1,
+      "value": 54.1073,
+      "ratePerUnit": 54.1073
+    },
+    {
+      "code": "QAR",
+      "name": "��������� ����",
+      "nominal": 1,
+      "value": 21.0617,
+      "ratePerUnit": 21.0617
+    },
+    {
+      "code": "KGS",
+      "name": "�����",
+      "nominal": 100,
+      "value": 87.6681,
+      "ratePerUnit": 0.876681
+    },
+    {
+      "code": "CUP",
+      "name": "��������� ����",
+      "nominal": 10,
+      "value": 31.9436,
+      "ratePerUnit": 3.19436
+    },
+    {
+      "code": "MDL",
+      "name": "���������� ����",
+      "nominal": 10,
+      "value": 43.6393,
+      "ratePerUnit": 4.36393
+    },
+    {
+      "code": "MNT",
+      "name": "��������",
+      "nominal": 1000,
+      "value": 21.3915,
+      "ratePerUnit": 0.0213915
+    },
+    {
+      "code": "NGN",
+      "name": "����",
+      "nominal": 1000,
+      "value": 55.6174,
+      "ratePerUnit": 0.0556174
+    },
+    {
+      "code": "NZD",
+      "name": "�������������� ������",
+      "nominal": 1,
+      "value": 43.8675,
+      "ratePerUnit": 43.8675
+    },
+    {
+      "code": "NOK",
+      "name": "���������� ����",
+      "nominal": 10,
+      "value": 78.7621,
+      "ratePerUnit": 7.87621
+    },
+    {
+      "code": "OMR",
+      "name": "�������� ����",
+      "nominal": 1,
+      "value": 199.388,
+      "ratePerUnit": 199.388
+    },
+    {
+      "code": "PLN",
+      "name": "������",
+      "nominal": 1,
+      "value": 20.1617,
+      "ratePerUnit": 20.1617
+    },
+    {
+      "code": "SAR",
+      "name": "���������� ����",
+      "nominal": 1,
+      "value": 20.4439,
+      "ratePerUnit": 20.4439
+    },
+    {
+      "code": "RON",
+      "name": "��������� ���",
+      "nominal": 1,
+      "value": 16.7423,
+      "ratePerUnit": 16.7423
+    },
+    {
+      "code": "XDR",
+      "name": "��� (����������� ����� �������������)",
+      "nominal": 1,
+      "value": 104.1007,
+      "ratePerUnit": 104.1007
+    },
+    {
+      "code": "SGD",
+      "name": "������������ ������",
+      "nominal": 1,
+      "value": 59.3978,
+      "ratePerUnit": 59.3978
+    },
+    {
+      "code": "TJS",
+      "name": "������",
+      "nominal": 10,
+      "value": 82.8387,
+      "ratePerUnit": 8.28387
+    },
+    {
+      "code": "THB",
+      "name": "�����",
+      "nominal": 10,
+      "value": 23.01,
+      "ratePerUnit": 2.301
+    },
+    {
+      "code": "BDT",
+      "name": "���",
+      "nominal": 100,
+      "value": 62.1275,
+      "ratePerUnit": 0.621275
+    },
+    {
+      "code": "TMT",
+      "name": "����� ����������� �����",
+      "nominal": 1,
+      "value": 21.9042,
+      "ratePerUnit": 21.9042
+    },
+    {
+      "code": "UZS",
+      "name": "��������� �����",
+      "nominal": 10000,
+      "value": 63.4853,
+      "ratePerUnit": 0.00634853
+    },
+    {
+      "code": "UAH",
+      "name": "������",
+      "nominal": 10,
+      "value": 17.23,
+      "ratePerUnit": 1.723
+    },
+    {
+      "code": "CZK",
+      "name": "������� ����",
+      "nominal": 10,
+      "value": 36.1507,
+      "ratePerUnit": 3.61507
+    },
+    {
+      "code": "SEK",
+      "name": "�������� ����",
+      "nominal": 10,
+      "value": 79.2497,
+      "ratePerUnit": 7.92497
+    },
+    {
+      "code": "CHF",
+      "name": "����������� �����",
+      "nominal": 1,
+      "value": 95.0821,
+      "ratePerUnit": 95.0821
+    },
+    {
+      "code": "ETB",
+      "name": "��������� �����",
+      "nominal": 100,
+      "value": 48.2631,
+      "ratePerUnit": 0.482631
+    },
+    {
+      "code": "RSD",
+      "name": "�������� �������",
+      "nominal": 100,
+      "value": 74.761,
+      "ratePerUnit": 0.74761
+    },
+    {
+      "code": "ZAR",
+      "name": "������",
+      "nominal": 10,
+      "value": 47.0033,
+      "ratePerUnit": 4.70033
+    },
+    {
+      "code": "KRW",
+      "name": "���",
+      "nominal": 1000,
+      "value": 50.9671,
+      "ratePerUnit": 0.0509671
+    },
+    {
+      "code": "MMK",
+      "name": "������",
+      "nominal": 1000,
+      "value": 36.507,
+      "ratePerUnit": 0.036507
+    }
+  ],
+  "source": "cbr.ru"
+}

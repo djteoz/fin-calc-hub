@@ -27,7 +27,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-4 py-16 md:py-20">
           <div className="mx-auto max-w-3xl text-center">
             <p className="mb-4 inline-flex items-center rounded-full border border-brand-200/60 bg-white/80 px-4 py-1.5 text-sm font-medium text-brand-700 shadow-sm">
-              5 калькуляторов · всегда бесплатно
+              6 калькуляторов · данные ЦБ РФ · бесплатно
             </p>
             <h1 className="mb-5 text-4xl font-bold tracking-tight text-surface-900 md:text-5xl md:leading-tight">
               Финансовые расчёты{" "}

@@ -3,7 +3,8 @@ export type ToolSlug =
   | "slozhny-procent"
   | "nds"
   | "marzha"
-  | "procenty";
+  | "procenty"
+  | "valyuta";
 
 export interface Tool {
   slug: ToolSlug;
@@ -71,6 +72,17 @@ export const tools: Tool[] = [
     accentBg: "bg-rose-50 group-hover:bg-rose-100",
     seoText:
       "Универсальный калькулятор процентов: сколько составляет X% от числа, какая скидка и на сколько % изменилось значение.",
+  },
+  {
+    slug: "valyuta",
+    title: "Конвертер валют",
+    shortTitle: "Валюта",
+    description: "Перевод по официальным курсам Банка России.",
+    icon: "💱",
+    accent: "text-sky-600",
+    accentBg: "bg-sky-50 group-hover:bg-sky-100",
+    seoText:
+      "Конвертация валют по официальным курсам ЦБ РФ. Укажите сумму и выберите валюты — калькулятор покажет результат в рублях и выбранной валюте.",
   },
 ];
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { Disclaimer } from "@/components/Disclaimer";
 import { formatMoney, formatNumber } from "@/lib/tools";
 
 export function MarginCalculator() {
@@ -21,7 +22,8 @@ export function MarginCalculator() {
   }, [cost, price]);
 
   return (
-    <div className="grid gap-6 lg:grid-cols-2">
+    <div className="space-y-6">
+      <div className="grid gap-6 lg:grid-cols-2">
       <div className="space-y-4">
         <div>
           <label className="label" htmlFor="cost">
@@ -67,6 +69,9 @@ export function MarginCalculator() {
           </div>
         </div>
       )}
+      </div>
+
+      <Disclaimer compact />
     </div>
   );
 }
