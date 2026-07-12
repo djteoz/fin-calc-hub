@@ -1,10 +1,19 @@
-export function AdSlot({ label = "Реклама" }: { label?: string }) {
+export function AdSlot() {
+  const clientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+
+  if (!clientId) {
+    return null;
+  }
+
   return (
-    <div
-      className="flex min-h-[120px] items-center justify-center rounded-xl border-2 border-dashed border-slate-200 bg-slate-50 text-sm text-slate-400"
-      data-ad-slot="placeholder"
-    >
-      {label} — подключите Google AdSense
+    <div className="my-6 flex min-h-[90px] items-center justify-center">
+      <ins
+        className="adsbygoogle block w-full"
+        style={{ display: "block" }}
+        data-ad-client={clientId}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
     </div>
   );
 }

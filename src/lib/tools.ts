@@ -12,6 +12,8 @@ export interface Tool {
   description: string;
   icon: string;
   seoText: string;
+  accent: string;
+  accentBg: string;
 }
 
 export const tools: Tool[] = [
@@ -21,6 +23,8 @@ export const tools: Tool[] = [
     shortTitle: "Кредит",
     description: "Ежемесячный платёж, переплата и полная стоимость кредита.",
     icon: "🏦",
+    accent: "text-blue-600",
+    accentBg: "bg-blue-50 group-hover:bg-blue-100",
     seoText:
       "Рассчитайте ежемесячный платёж по кредиту или ипотеке. Укажите сумму, ставку и срок — калькулятор покажет переплату и общую сумму выплат.",
   },
@@ -30,6 +34,8 @@ export const tools: Tool[] = [
     shortTitle: "Инвестиции",
     description: "Сколько вырастут сбережения при регулярных вложениях.",
     icon: "📈",
+    accent: "text-emerald-600",
+    accentBg: "bg-emerald-50 group-hover:bg-emerald-100",
     seoText:
       "Узнайте, как сложный процент увеличивает капитал. Подходит для расчёта депозитов, инвестиций и накоплений.",
   },
@@ -39,6 +45,8 @@ export const tools: Tool[] = [
     shortTitle: "НДС",
     description: "Выделить или начислить НДС 20% для счетов и чеков.",
     icon: "🧾",
+    accent: "text-violet-600",
+    accentBg: "bg-violet-50 group-hover:bg-violet-100",
     seoText:
       "Быстрый расчёт НДС: добавить налог к сумме или выделить из суммы с НДС. Актуально для ИП и малого бизнеса.",
   },
@@ -48,6 +56,8 @@ export const tools: Tool[] = [
     shortTitle: "Маржа",
     description: "Наценка, маржа и рентабельность продаж.",
     icon: "💰",
+    accent: "text-amber-600",
+    accentBg: "bg-amber-50 group-hover:bg-amber-100",
     seoText:
       "Рассчитайте маржинальность товара: себестоимость, цена продажи, наценка в процентах и чистая прибыль.",
   },
@@ -57,6 +67,8 @@ export const tools: Tool[] = [
     shortTitle: "Проценты",
     description: "Найти процент от числа, скидку и разницу в %.",
     icon: "🔢",
+    accent: "text-rose-600",
+    accentBg: "bg-rose-50 group-hover:bg-rose-100",
     seoText:
       "Универсальный калькулятор процентов: сколько составляет X% от числа, какая скидка и на сколько % изменилось значение.",
   },
