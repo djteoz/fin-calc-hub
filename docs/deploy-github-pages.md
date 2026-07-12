@@ -37,11 +37,11 @@ git remote add origin https://github.com/USERNAME/fin-calc-hub.git
 git push -u origin main
 ```
 
-2. На GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**
+2. На GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch**
 
-3. Добавьте variables из таблицы выше (вариант A или B)
+3. Выберите branch: **`gh-pages`**, folder: **`/ (root)`**
 
-4. Workflow `.github/workflows/deploy-github-pages.yml` задеплоит сайт автоматически при push в `main`
+4. Workflow `.github/workflows/deploy-github-pages.yml` пушит статику в ветку `gh-pages` при каждом push в `main`
 
 ## Локальная проверка перед деплоем
 
