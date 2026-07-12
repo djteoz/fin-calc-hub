@@ -1,33 +1,59 @@
 # Идеи доменных имён
 
-Когда будете покупать домен, выберите короткое имя с ключевым словом «calc» / «kalk» / «fin» — это помогает SEO.
+Популярные имена (`finmeter.ru`, `rubcalc.ru`, `procalc.ru`) часто заняты.
+Ниже — стратегии и варианты, которые **скорее всего свободны** (проверка DNS, июль 2026).
+**Перед покупкой** всегда проверяйте на [reg.ru](https://www.reg.ru) или [nic.ru](https://www.nic.ru).
 
-## Топ рекомендации
+## Скорее всего свободны (.ru)
 
-| Домен | Плюсы | Пример бренда |
+| Домен | Бренд | Комментарий |
 |---|---|---|
-| **calc.ru** / **kalk.ru** | Коротко, запоминается | «Kalk» |
-| **finmeter.ru** | Звучит профессионально | FinMeter |
-| **rubcalc.ru** | Понятно: калькуляторы в рублях | RubCalc |
-| **procalc.ru** | «Про»-уровень, для бизнеса | ProCalc |
-| **cashcalc.ru** | SEO: cash + calc | CashCalc |
-| **fin-calc.ru** | Прямое попадание в запрос | FinCalc |
+| **numcalc.ru** | NumCalc | calc + numbers, коротко |
+| **calcspot.ru** | CalcSpot | «место для калькуляторов» |
+| **kalkul.ru** | Kalkul | транслит, 6 букв |
+| **calcprofi.ru** | CalcProfi | для профи и бизнеса |
+| **moneycalc.ru** | MoneyCalc | SEO: money + calc |
+| **calcform.ru** | CalcForm | формулы / формы |
+| **kalkbit.ru** | KalkBit | tech-звучание |
+| **rucalcpro.ru** | RuCalcPro | RU + calc + pro |
+| **kalkru.ru** | KalkRU | калькуляторы России |
+| **finarith.ru** | FinArith | finance + arithmetic |
+| **rubtools.ru** | RubTools | инструменты в рублях |
 
-## .рф домены (если доступны)
+## Альтернативные зоны (дешевле, чаще свободны)
 
-- **считаем.рф**
-- **калькулятор-фин.рф**
-- **мойрасчёт.рф**
+| Домен | ~цена | Комментарий |
+|---|---|---|
+| **calcru.online** | ~200–400 ₽/год | Прямой смысл |
+| **fin-calc.online** | ~200–400 ₽/год | Как текущий проект |
+| **rubcalc.site** | ~200 ₽/год | Коротко |
+| **kalk.online** | ~300 ₽/год | Очень коротко |
 
-## Как переименовать сайт после покупки домена
+## Брендовые (придуманные — выше шанс свободны)
 
-1. Откройте `src/lib/brand.ts` — измените `name`, `shortName`, `tagline`, `plannedDomain`
-2. Обновите `NEXT_PUBLIC_SITE_URL` в GitHub Actions workflow
-3. Уберите `NEXT_PUBLIC_BASE_PATH` (для своего домена путь будет `/`, не `/fin-calc-hub`)
-4. Подключите домен в GitHub Pages → Settings → Custom domain
+| Домен | Бренд |
+|---|---|
+| **finarith.ru** | FinArith |
+| **calczen.ru** | CalcZen |
+| **kalkform.ru** | KalkForm |
+| **finzen.ru** | FinZen |
+
+## Если .ru не нужен прямо сейчас
+
+Бесплатно продолжайте на:
+**https://djteoz.github.io/fin-calc-hub**
+
+Потом подключите свой домен в GitHub Pages → Custom domain.
+
+## Как переименовать сайт после покупки
+
+1. `src/lib/brand.ts` — `name`, `shortName`, `tagline`, `plannedDomain`
+2. GitHub Actions → `NEXT_PUBLIC_SITE_URL=https://ваш-домен.ru`
+3. Для своего домена уберите `NEXT_PUBLIC_BASE_PATH` (путь будет `/`, не `/fin-calc-hub`)
+4. GitHub → Settings → Pages → Custom domain
 
 ## Проверка занятости
 
-- [reg.ru](https://www.reg.ru)
+- [reg.ru/domain/new](https://www.reg.ru/domain/new/)
 - [nic.ru](https://www.nic.ru)
-- [whois.com](https://www.whois.com)
+- [webnames.ru/domains/check](https://www.webnames.ru/domains/check)

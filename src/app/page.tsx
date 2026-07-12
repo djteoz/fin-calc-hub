@@ -82,9 +82,9 @@ export default function HomePage() {
               <span className="text-gradient-brand">без лишних шагов</span>
             </h1>
 
-            <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-slate-400 md:text-xl">
+            <p className="text-lg leading-relaxed text-slate-400 md:text-xl">
               Кредит, валюта, НДС, маржа и инвестиции — точные калькуляторы с
-              данными Центробанка. {brand.name}, {brand.tagline.toLowerCase()}.
+              данными Центробанка. {brand.name} — {brand.tagline.toLowerCase()}.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">

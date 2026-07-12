@@ -29,8 +29,8 @@ jobs:
 
       - name: Build static site
         env:
-          NEXT_PUBLIC_SITE_URL: https://djteoz.github.io/fin-calc-hub
-          NEXT_PUBLIC_BASE_PATH: /fin-calc-hub
+          NEXT_PUBLIC_SITE_URL: https://calcspot.ru
+          NEXT_PUBLIC_BASE_PATH: ""
         run: npm run build
 
       - name: Deploy to gh-pages branch
@@ -40,3 +40,4 @@ jobs:
           publish_dir: ./out
           publish_branch: gh-pages
           enable_jekyll: false
+          cname: calcspot.ru
