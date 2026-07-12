@@ -35,7 +35,7 @@ export function VatCalculator() {
 
   return (
     <div className="space-y-6">
-      <div className="rounded-xl border border-violet-200/70 bg-violet-50/50 px-4 py-3 text-sm text-violet-900">
+      <div className="rounded-xl border border-violet-500/20 bg-violet-500/5 px-4 py-3 text-sm text-violet-200">
         Ставки НДС установлены Налоговым кодексом РФ. Актуальные: 20%, 10% и 0%.
       </div>
 
@@ -64,11 +64,11 @@ export function VatCalculator() {
                   onClick={() => setRate(String(preset.value))}
                   className={`w-full rounded-xl border px-4 py-3 text-left transition ${
                     rate === String(preset.value)
-                      ? "border-brand-500 bg-brand-50"
-                      : "border-slate-200 bg-white hover:border-slate-300"
+                      ? "border-brand-500/50 bg-brand-500/10"
+                      : "border-white/10 bg-ink-900/50 hover:border-white/20"
                   }`}
                 >
-                  <span className="font-medium text-surface-900">{preset.label}</span>
+                  <span className="font-medium text-slate-100">{preset.label}</span>
                   <span className="mt-0.5 block text-xs text-slate-500">{preset.note}</span>
                 </button>
               ))}
@@ -81,7 +81,7 @@ export function VatCalculator() {
               className={`rounded-xl px-4 py-2 text-sm font-medium ${
                 mode === "add"
                   ? "bg-brand-600 text-white"
-                  : "bg-slate-100 text-slate-700"
+                  : "bg-ink-800 text-slate-300 hover:bg-ink-700"
               }`}
               onClick={() => setMode("add")}
             >
@@ -92,7 +92,7 @@ export function VatCalculator() {
               className={`rounded-xl px-4 py-2 text-sm font-medium ${
                 mode === "extract"
                   ? "bg-brand-600 text-white"
-                  : "bg-slate-100 text-slate-700"
+                  : "bg-ink-800 text-slate-300 hover:bg-ink-700"
               }`}
               onClick={() => setMode("extract")}
             >

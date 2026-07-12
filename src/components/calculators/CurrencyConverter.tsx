@@ -86,7 +86,7 @@ export function CurrencyConverter() {
             <button
               type="button"
               onClick={swap}
-              className="rounded-xl border border-slate-200 bg-white px-3 py-3 text-sm font-medium text-slate-600 transition hover:border-brand-300 hover:text-brand-700"
+              className="rounded-xl border border-white/10 bg-ink-900/50 px-3 py-3 text-sm font-medium text-slate-400 transition hover:border-brand-500/30 hover:text-brand-300"
               aria-label="Поменять валюты местами"
             >
               ⇄

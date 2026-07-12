@@ -77,7 +77,7 @@ export function CompoundInterestCalculator() {
             <button
               type="button"
               onClick={() => setRate(String(Math.max(defaultRate - 2, 8)))}
-              className="mt-2 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-600 transition hover:border-brand-300 hover:text-brand-700"
+              className="mt-2 rounded-lg border border-white/10 bg-ink-900/50 px-3 py-1.5 text-xs font-medium text-slate-400 transition hover:border-brand-500/30 hover:text-brand-300"
             >
               Ориентир: ключ. ставка − 2 п.п.
             </button>

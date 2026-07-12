@@ -48,11 +48,11 @@ export default async function ToolPage({ params }: ToolPageProps) {
           <Calculator />
         </div>
 
-        <article className="rounded-2xl border border-slate-200/80 bg-white p-6 md:p-8">
-          <h2 className="mb-3 text-lg font-bold text-surface-900">
+        <article className="rounded-2xl border border-white/[0.06] bg-ink-800/40 p-6 md:p-8">
+          <h2 className="mb-3 font-display text-lg font-bold text-white">
             Как пользоваться
           </h2>
-          <p className="leading-relaxed text-slate-600">{tool.seoText}</p>
+          <p className="leading-relaxed text-slate-400">{tool.seoText}</p>
           <p className="mt-3 text-sm text-slate-500">
             Все расчёты выполняются в браузере — данные никуда не отправляются.
             Результат обновляется мгновенно при изменении параметров.

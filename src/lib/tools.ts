@@ -25,7 +25,7 @@ export const tools: Tool[] = [
     description: "Ежемесячный платёж, переплата и полная стоимость кредита.",
     icon: "🏦",
     accent: "text-blue-600",
-    accentBg: "bg-blue-50 group-hover:bg-blue-100",
+    accentBg: "bg-blue-500/10 ring-1 ring-blue-500/20",
     seoText:
       "Рассчитайте ежемесячный платёж по кредиту или ипотеке. Укажите сумму, ставку и срок — калькулятор покажет переплату и общую сумму выплат.",
   },
@@ -36,7 +36,7 @@ export const tools: Tool[] = [
     description: "Сколько вырастут сбережения при регулярных вложениях.",
     icon: "📈",
     accent: "text-emerald-600",
-    accentBg: "bg-emerald-50 group-hover:bg-emerald-100",
+    accentBg: "bg-accent-500/10 ring-1 ring-accent-500/20",
     seoText:
       "Узнайте, как сложный процент увеличивает капитал. Подходит для расчёта депозитов, инвестиций и накоплений.",
   },
@@ -47,7 +47,7 @@ export const tools: Tool[] = [
     description: "Выделить или начислить НДС 20% для счетов и чеков.",
     icon: "🧾",
     accent: "text-violet-600",
-    accentBg: "bg-violet-50 group-hover:bg-violet-100",
+    accentBg: "bg-violet-500/10 ring-1 ring-violet-500/20",
     seoText:
       "Быстрый расчёт НДС: добавить налог к сумме или выделить из суммы с НДС. Актуально для ИП и малого бизнеса.",
   },
@@ -58,7 +58,7 @@ export const tools: Tool[] = [
     description: "Наценка, маржа и рентабельность продаж.",
     icon: "💰",
     accent: "text-amber-600",
-    accentBg: "bg-amber-50 group-hover:bg-amber-100",
+    accentBg: "bg-amber-500/10 ring-1 ring-amber-500/20",
     seoText:
       "Рассчитайте маржинальность товара: себестоимость, цена продажи, наценка в процентах и чистая прибыль.",
   },
@@ -69,7 +69,7 @@ export const tools: Tool[] = [
     description: "Найти процент от числа, скидку и разницу в %.",
     icon: "🔢",
     accent: "text-rose-600",
-    accentBg: "bg-rose-50 group-hover:bg-rose-100",
+    accentBg: "bg-rose-500/10 ring-1 ring-rose-500/20",
     seoText:
       "Универсальный калькулятор процентов: сколько составляет X% от числа, какая скидка и на сколько % изменилось значение.",
   },
@@ -80,7 +80,7 @@ export const tools: Tool[] = [
     description: "Перевод по официальным курсам Банка России.",
     icon: "💱",
     accent: "text-sky-600",
-    accentBg: "bg-sky-50 group-hover:bg-sky-100",
+    accentBg: "bg-brand-500/10 ring-1 ring-brand-500/20",
     seoText:
       "Конвертация валют по официальным курсам ЦБ РФ. Укажите сумму и выберите валюты — калькулятор покажет результат в рублях и выбранной валюте.",
   },

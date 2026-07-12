@@ -1,50 +1,53 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Manrope, Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { siteUrl } from "@/lib/site";
+import { brand, siteUrl } from "@/lib/brand";
 
-const inter = Inter({ subsets: ["latin", "cyrillic"] });
+const display = Manrope({
+  subsets: ["latin", "cyrillic"],
+  variable: "--font-display",
+  weight: ["500", "600", "700", "800"],
+});
+
+const body = Inter({
+  subsets: ["latin", "cyrillic"],
+  variable: "--font-body",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "ФинКальк — бесплатные финансовые калькуляторы онлайн",
-    template: "%s | ФинКальк",
+    default: `${brand.name} — финансовые калькуляторы онлайн`,
+    template: `%s | ${brand.name}`,
   },
   description:
-    "Бесплатные онлайн-калькуляторы: кредит, ипотека, сложный процент, НДС, маржа. Быстрый расчёт без регистрации.",
+    "Бесплатные онлайн-калькуляторы: кредит, ипотека, валюта, НДС, маржа. Данные ЦБ РФ. Без регистрации.",
   keywords: [
     "калькулятор кредита",
     "калькулятор ипотеки",
-    "сложный процент",
+    "конвертер валют",
+    "курс цб",
     "калькулятор НДС",
-    "маржа прибыли",
     "финансовые калькуляторы",
   ],
   openGraph: {
     type: "website",
     locale: "ru_RU",
-    siteName: "ФинКальк",
-    title: "ФинКальк — бесплатные финансовые калькуляторы",
-    description:
-      "Рассчитайте кредит, ипотеку, НДС и доходность инвестиций за секунды.",
+    siteName: brand.name,
+    title: `${brand.name} — финансовые калькуляторы`,
+    description: "Рассчитайте кредит, валюту, НДС и инвестиции с данными ЦБ РФ.",
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="ru">
-      <body className={`${inter.className} min-h-screen`}>
+    <html lang="ru" className={`${display.variable} ${body.variable}`}>
+      <body className="min-h-screen font-sans">
         <div className="flex min-h-screen flex-col">
           <Header />
           <main className="flex-1">{children}</main>

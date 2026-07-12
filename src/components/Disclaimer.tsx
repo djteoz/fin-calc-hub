@@ -9,8 +9,8 @@ export function Disclaimer({ compact = false }: { compact?: boolean }) {
   }
 
   return (
-    <div className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm leading-relaxed text-slate-600">
-      <p className="font-medium text-slate-700">Важно</p>
+    <div className="rounded-xl border border-white/[0.06] bg-ink-800/40 px-4 py-3 text-sm leading-relaxed text-slate-400">
+      <p className="font-medium text-slate-300">Важно</p>
       <p className="mt-1">
         Все расчёты выполняются локально в вашем браузере. Результаты носят
         информационный характер и не являются финансовой рекомендацией, офертой

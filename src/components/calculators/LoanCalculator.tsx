@@ -73,7 +73,7 @@ export function LoanCalculator() {
                   key={preset.label}
                   type="button"
                   onClick={() => setRate(String(preset.value))}
-                  className="rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-600 transition hover:border-brand-300 hover:text-brand-700"
+                  className="rounded-lg border border-white/10 bg-ink-900/50 px-3 py-1.5 text-xs font-medium text-slate-400 transition hover:border-brand-500/30 hover:text-brand-300"
                 >
                   {preset.label}
                 </button>
@@ -97,9 +97,9 @@ export function LoanCalculator() {
         {result && (
           <div className="space-y-4">
             <div className="result-box">
-              <p className="text-sm text-brand-700">Ежемесячный платёж</p>
-              <p className="text-3xl font-bold">{formatMoney(result.payment)}</p>
-              <p className="mt-1 text-xs text-brand-800/70">
+            <p className="text-sm text-brand-300">Ежемесячный платёж</p>
+            <p className="text-3xl font-bold text-white">{formatMoney(result.payment)}</p>
+            <p className="mt-1 text-xs text-slate-500">
                 Аннуитетная схема — одинаковый платёж каждый месяц
               </p>
             </div>
