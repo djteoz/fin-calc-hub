@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://djteoz.github.io/fin-calc-hub/sitemap.xml
