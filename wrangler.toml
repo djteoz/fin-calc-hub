@@ -1,0 +1,12 @@
+# Cloudflare Pages — статический деплой
+# Dashboard: Build command = npm run build, Output directory = out
+
+[build]
+command = "npm run build"
+
+[build.environment]
+NODE_VERSION = "22"
+
+# Для project site на GitHub Pages раскомментируйте и укажите имя репозитория:
+# NEXT_PUBLIC_BASE_PATH = "/fin-calc-hub"
+# NEXT_PUBLIC_SITE_URL = "https://USERNAME.github.io/fin-calc-hub"
